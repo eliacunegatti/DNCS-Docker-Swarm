@@ -1,0 +1,32 @@
+{% load crispy_forms_tags %}
+
+<html>
+    <header>
+        <h1>Insert the data of the person you are looking for</h1>
+    </header>
+    <body>
+        <div class="container">
+            <form method="POST" action="#">
+                {% csrf_token %}
+                {{ form|crispy }}
+            <br>
+            <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+        {% if people is not None %}
+        <div class="container">
+            <p>This are the people you looked for!</p>
+            <ul>
+                {% for person in people %}
+                <li>
+                    <p>Name: {{ person.name }} Surname: {{ person.surname }}</p>                   
+                    <p>Age: {{ person.age }} Gender: {{ person.gender }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+        <a href="/people"><button class="btn btn-primary">BACK</button></a>
+    </body>
+
+</html>

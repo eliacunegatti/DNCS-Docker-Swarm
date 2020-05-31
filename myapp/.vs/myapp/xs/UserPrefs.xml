@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{86CF77FE-B769-464C-839D-1BC92F8E6033}|Default">
+  <MonoDevelop.Ide.ItemProperties.myapp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="myapp/Pages/Index.cshtml.cs">
+    <Files>
+      <File FileName="myapp/Pages/Index.cshtml.cs" Line="26" Column="1" IsPinned="True" />
+      <File FileName="myapp/Pages/Index.cshtml" />
+      <File FileName="myapp/Pages/Privacy.cshtml" />
+      <File FileName="myapp/Pages/Privacy.cshtml.cs" />
+      <File FileName="myapp/Pages/Error.cshtml" />
+      <File FileName="myapp/Pages/Error.cshtml.cs" />
+      <File FileName="myapp/Pages/App.cshtml" />
+      <File FileName="myapp/Pages/App.cshtml.cs" />
+      <File FileName="myapp/Pages/Shared/_Layout.cshtml" />
+      <File FileName="myapp/wwwroot/lib/jquery-validation/dist/additional-methods.js" />
+      <File FileName="myapp/Program.cs" />
+      <File FileName="myapp/Startup.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="myapp" expanded="True">
+            <Node name="myapp" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
